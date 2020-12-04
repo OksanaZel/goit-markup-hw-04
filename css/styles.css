@@ -53,7 +53,8 @@ img {
 .container {
   width: 1200px;
   padding: 0 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section {
@@ -181,12 +182,31 @@ img {
 /*======= HERO =======*/
 
 .hero {
-  background-color: #2f303a;
+  height: 600px;
+  min-width: 1600px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../img/background-main.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero.section {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero .title {
   width: 696px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 
   font-weight: 900;
