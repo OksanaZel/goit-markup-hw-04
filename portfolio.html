@@ -34,11 +34,20 @@
             </nav>
             <ul class="contact-list">
                 <li class="contact-list-item list">
-                    <a class="contact-list-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="contact-list-link link" href="mailto:info@devstudio.com">
+                        <svg class="contact-list-icon" width="16" height="12">
+                            <use href="./img/sprite.svg#mail"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
     
                 <li class="contact-list-item list">
-                    <a class="contact-list-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="contact-list-link link" href="tel:+380961111111">
+                        <svg class="contact-list-icon" width="12" height="16">
+                            <use href="./img/sprite.svg#phone"></use>
+                        </svg>
+                        +38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -158,28 +167,58 @@
         </section>
     </main>
     <!-- Футер -->
-    <footer>
-    <footer class="footer">
+    <footer class="footer section">
         <div class="container">
-            <a class="logo logo-dark-theme link" href="./index.html" aria-label="логотип сайта" lang="en">
-                <span class="logo-accent">Web</span>Studio
-            </a>
+            <div class="footer-contact">
+                <a class="logo logo-dark-theme link" href="./index.html" aria-label="логотип сайта" lang="en">
+                    <span class="logo-accent">Web</span>Studio
+                </a>
     
-            <address class="address">
-                <ul class="address-list">
-                    <li class="address-list-item list">
-                        <a class="address-list-map link" href="https://goo.gl/maps/AQZnoNEYQDTH3M7m6" target="_blank">г.
-                            Киев, пр-т Леси
-                            Украинки, 26</a>
-                    </li>
-                    <li class="address-list-item list">
-                        <a class="address-list-link link" href="mailto:info@example.com">info@example.com</a>
-                    </li>
-                    <li class="address-list-item list">
-                        <a class="address-list-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </li>
+                <address class="address">
+                    <ul class="address-list">
+                        <li class="address-list-item list">
+                            <a class="address-list-map link" href="https://goo.gl/maps/AQZnoNEYQDTH3M7m6" target="_blank">г.
+                                Киев, пр-т Леси
+                                Украинки, 26</a>
+                        </li>
+                        <li class="address-list-item list">
+                            <a class="address-list-link link" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="address-list-item list">
+                            <a class="address-list-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-social-list">
+                <b class="join">присоединяйтесь</b>
+                <ul class="social-list list">
+                    <li class="social-list-item">
+                        <a class="social-list-link" href="">
+                            <svg class="social-list-icon">
+                                <use href="./img/sprite.svg#instagram" </use>
+                            </svg>
+                        </a></li>
+                    <li class="social-list-item">
+                        <a class="social-list-link" href="">
+                            <svg class="social-list-icon">
+                                <use href="./img/sprite.svg#twitter" </use>
+                            </svg>
+                        </a></li>
+                    <li class="social-list-item">
+                        <a class="social-list-link" href="">
+                            <svg class="social-list-icon">
+                                <use href="./img/sprite.svg#facebook" </use>
+                            </svg>
+                        </a></li>
+                    <li class="social-list-item">
+                        <a class="social-list-link" href="">
+                            <svg class="social-list-icon">
+                                <use href="./img/sprite.svg#linkedin" </use>
+                            </svg>
+                        </a></li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
