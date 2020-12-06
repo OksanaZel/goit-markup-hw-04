@@ -268,10 +268,27 @@ img {
   margin-right: 30px;
 }
 
+.features-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features-list-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -279,39 +296,8 @@ img {
 .features-list-description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.72;
   color: var(--secondary-text-color);
-}
-
-.features-list-item::before {
-  content: '';
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-
-  background-color: #f5f4fa;
-  border-radius: 4px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
-}
-
-.icon-antenna::before {
-  background-image: url(../img/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../img/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../img/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../img/astronaut.svg);
 }
 
 /*======= END FEATURES =======*/
