@@ -455,13 +455,16 @@ img {
 
 .footer .container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   /*justify-content: center;*/
 }
 
 .footer .logo {
-  margin-right: 156px;
   margin-bottom: 20px;
+}
+
+.footer-contact {
+  margin-right: 70px;
 }
 
 .address-list-link {
